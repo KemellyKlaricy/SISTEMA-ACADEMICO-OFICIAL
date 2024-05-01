@@ -92,8 +92,6 @@ Dados lerdados(Dados x){
 }
 void exibirDados(Dados x){
 
-  
-
   cout << "=============================================================================" << endl;
   cout << "Dados do aluno (" << x.p.matricula << ")" << endl;
   cout << " " << endl;
@@ -106,8 +104,6 @@ void exibirDados(Dados x){
   cout << "Periodo atual: " << x.p.periodo << "ª" << endl;
   cout << "=============================================================================" << endl; 
   cout << " " <<endl;
-
-
 
 for(int i = 0; i < x.totalDisciplinas; i++){
     cout << "=============================================================================" <<endl;
