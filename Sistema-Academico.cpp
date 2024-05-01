@@ -10,6 +10,7 @@ struct Aluno {
     string ingresso;
     string dataNascimento;
     int periodo;
+    int numero;
 };
 
 struct Disciplina {
